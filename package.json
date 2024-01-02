@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/image-edge": "^1.0.0-rc.1-28234795.c38b496",
+    "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "6.1.3",
+    "@vueuse/nuxt": "9.6.0"
+  }
+}
